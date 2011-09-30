@@ -1,0 +1,35 @@
+
+
+=m3c-bar
+  .m3c-bar
+    @extend .ff-dagny
+    position: fixed
+    left: 0
+    bottom: 0
+    +clearfix
+    background: #fff
+    background: rgba(#fff,.8)
+    border-top: 1px solid rgba(#000,.8)
+    color: #656565
+    font-size: 9px
+    font-family: Arial
+    letter-spacing: 1px
+    line-height: 26px
+    text-transform: uppercase
+    width: 100%
+    z-index: 100
+    .copyright
+      +float-left
+      padding-left: 50px
+    .powered-by
+      +float-right
+      padding-right: 50px
+    a
+      color: #222
+      text-decoration: none
+      &:hover
+        color: $nav_hover_bg_color
+        border-bottom: 1px solid #333
+        text-decoration: none
+
++m3c-bar

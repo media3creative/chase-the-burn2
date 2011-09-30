@@ -1,0 +1,16 @@
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black url(images/spinner.gif) no-repeat scroll center center;
+	z-index: 200;
+}
+
+#lightbox {
+  position: absolute;
+	z-index: 500;
+	border: 4px solid #FFFFFF;
+}
+
