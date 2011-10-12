@@ -52,19 +52,19 @@
         %a{:href => "#", :id => "main-1-link"} HOME
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-5-link"} ABOUT
+        %a{:href => "#", :id => "main-2-link"} ABOUT
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-2-link"} SERVICES
+        %a{:href => "#", :id => "main-3-link"} SERVICES
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-3-link"} PACKAGES
+        %a{:href => "#", :id => "main-4-link"} GALLERY
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-4-link"} CONTACT
+        %a{:href => "#", :id => "main-5-link"} CONTACT
         .menu-hl
-  #homePage
-  #calendarPage
+  #page1
+  #page2
     .content-border
       .content
         .center-content
@@ -77,7 +77,7 @@
           %p Vivamus leo lorem, aliquet et dapibus et, molestie sed mauris. Integer accumsan convallis odio, at tristique urna euismod id. Nam nec justo sem. Suspendisse potenti. Donec non lectus odio. Integer turpis urna, lobortis non pharetra quis, ornare vel leo. Sed vitae velit quis risus feugiat ullamcorper eu at lorem. Fusce pulvinar nibh sed urna volutpat venenatis. 
           %p Donec vulputate nisi ac magna semper non adipiscing leo accumsan. Integer fringilla libero a orci congue in ullamcorper felis bibendum. Vestibulum sollicitudin est at ante ullamcorper suscipit. Phasellus massa metus, elementum nec lobortis ac, consectetur venenatis justo.
           %br
-  #venuePage
+  #page3
     .content-border
       .content
         .center-content
@@ -90,15 +90,33 @@
             %li Pellentesque feugiat lacinia varius. 
             %li Pellentesque feugiat lacinia varius. 
           %br
-  #galleryPage
+  #page4
     .content-border
       .content
         .center-content
           %br
-          %h1 Gallery of Clients
-          %p Coming Soon...
+          %h1 Gallery
+          .gallery-container
+            %a{:href => "/images/gallery/1.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/1_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/2.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/2_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/3.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/3_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/4.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/4_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/5.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/5_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/6.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/6_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/7.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/7_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/8.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/8_small.jpg", :width => "100"}
+            %a{:href => "/images/gallery/9.jpg", :rel => "lightbox[wedding]"}
+              %img{:height => "200", :src => "/images/gallery/9_small.jpg", :width => "100"}
           %br
-  #reservationPage
+  #page5
     .content-border
       .content
         .center-content
@@ -119,7 +137,7 @@
             %iframe{:allowtransparency => "true", :frameborder => "0", :height => "400", :scrolling => "no", :src => "https://media3creative.wufoo.com/embed/s7p1a7/", :style => "width:90%;border:none;margin-left:20px;"}
           %br
   .footer
-    Copyright &copy Base the Burn, 2011. All Rights Reserved. 
+    Copyright &copy Chase the Burn, 2011. All Rights Reserved. 
     %a.ourLink{:href => "http://media3creative.com/", :title => "Media 3 Creative"} POWERED BY | Media 3 Creative     
   .copyright-box 
     //%a.ourLink{:href => "http://media3creative.com/forms/q7p5x7/", :title => "Media 3 Creative"} POWERED BY | Media 3 Creative     

@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 
 	var stageHeight = parseInt(jQuery(window).height()) - 20 + "px";
 	jQuery('.left-side-bar').css("height",stageHeight);
-	jQuery('#homePage, #venuePage, #galleryPage, #reservationPage, #calendarPage, #happyHourPage, #menuPage-1, #menuPage-2, #menuPage-3, #menuPage-4, #menuPage-5, #menuPage-6, #contactPage-1, #contactPage-2').css("display","none")
+	jQuery('#page1, #page2, #page3, #page4, #page5').css("display","none")
 
 	//jQuery(".preloader").delay(600).slideToggle(600,"swing");
 	jQuery(".bg2").css("display", "none");
@@ -76,58 +76,25 @@ jQuery(document).ready(function() {
 	//menu_appear("#main-4-link",2750);
 	//menu_appear("#main-5-link",3000);
 	//==============
-	jQuery('.close-content').click(function(){
-		jQuery(this).parent().slideToggle("slow");
-	});
-	//alert(jQuery('#main-1-link').next());
 	jQuery('#main-1-link').click(function(){
-		closeSubmenu();
-		if(jQuery('#homePage').css("display") == "none"){
-				jQuery('#homePage').slideToggle("fast");
-		}
-		changePage("#homePage","bg_1.jpg");
-	});
-	jQuery('.homeLogoBtn').click(function(){
-		closeSubmenu();
-		if(jQuery('#homePage').css("display") == "none"){
-				jQuery('#homePage').slideToggle("fast");
-		}
-		changePage("#homePage","bg_1.jpg");
+		changePage("#page1","bg_1.jpg");
 	});
 	jQuery('#main-2-link').click(function(){
-		changePage("#venuePage","bg_2.jpg");
+		changePage("#page2","bg_2.jpg");
 	});
 	jQuery('#main-3-link').click(function(){
 		closeSubmenu();
-		changePage("#galleryPage","bg_3.jpg");
+		changePage("#page3","bg_3.jpg");
 		//switchBg("bg6.jpg");
 	});
 	jQuery('#main-4-link').click(function(){
 		closeSubmenu();
-		changePage("#reservationPage","bg_1.jpg");
+		changePage("#page4","bg_4.jpg");
 		//switchBg("bg6.jpg");
 	});
 	jQuery('#main-5-link').click(function(){
 		closeSubmenu();
-		changePage("#calendarPage","bg_2.jpg");
-		//switchBg("bg6.jpg");
-	});
-	jQuery('#main-6-link').click(function(){
-		closeSubmenu();
-		changePage("#happyHourPage","bg_3.jpg");
-		}
-	)
-	jQuery('#main-7-link').click(function(){
-			switchBg('bg_6.jpg');
-			closeSubmenu();
-			jQuery('#sub-menu-6').slideToggle("fast");
-		}
-	);
-	jQuery('#main-8-link').click(function(){
-		closeSubmenu();
-		switchBg('contact.jpg');
-		jQuery('#sub-menu-8').slideToggle("fast");
-		//changePage("#contactPage","contact.jpg");
+		changePage("#page5","bg_5.jpg");
 		//switchBg("bg6.jpg");
 	});
 		// pageComeOut();
@@ -283,20 +250,20 @@ function changePage(targetPage,targetBg){
 }
 function slideShow(){
 	//alert(currentPage)
-	if(currentPage == "#homePage"
+	if(currentPage == "#page1"
 	|| currentPage == "#page0"){
 		whichPic += 1;
 		if(whichPic == 1){
 			switchBg("bg_1.jpg");
 		}
 		if(whichPic == 2){
-			switchBg("bg_1.jpg");
+			switchBg("bg_1_2.jpg");
 		}
 		if(whichPic == 3){
-			switchBg("bg_1.jpg");
+			switchBg("bg_1_3.jpg");
 		}
 		if(whichPic == 4){
-			switchBg("bg_1.jpg");
+			switchBg("bg_1_4.jpg");
 		}
 		if(whichPic == 5){
 			switchBg("bg_1.jpg");
