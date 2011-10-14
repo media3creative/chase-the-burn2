@@ -245,6 +245,12 @@ p {
   font-size: 13px;
 }
 
+.red-text {
+  font-family: Helvetica_light;
+  font-size: 14px;
+  color: red;
+}
+
 td {
   padding-left: 20px;
 }
