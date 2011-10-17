@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 
 	var stageHeight = parseInt(jQuery(window).height()) - 20 + "px";
 	jQuery('.left-side-bar').css("height",stageHeight);
-	jQuery('#page1, #page2, #page3, #page4, #page5').css("display","none")
+	jQuery('#page1, #page2, #page3, #page4, #page5, #page6').css("display","none")
 
 	//jQuery(".preloader").delay(600).slideToggle(600,"swing");
 	jQuery(".bg2").css("display", "none");
@@ -72,7 +72,7 @@ jQuery(document).ready(function() {
 	menu_appear("#main-3-link",1750);
 	menu_appear("#main-4-link",2000);
 	menu_appear("#main-5-link",2250);
-	//menu_appear("#main-6-link",2500);
+	menu_appear("#main-6-link",2500);
 	//menu_appear("#main-4-link",2750);
 	//menu_appear("#main-5-link",3000);
 	//==============
@@ -95,6 +95,11 @@ jQuery(document).ready(function() {
 	jQuery('#main-5-link').click(function(){
 		closeSubmenu();
 		changePage("#page5","bg_5.jpg");
+		//switchBg("bg6.jpg");
+	});
+	jQuery('#main-6-link').click(function(){
+		closeSubmenu();
+		changePage("#page6","bg_5.jpg");
 		//switchBg("bg6.jpg");
 	});
 		// pageComeOut();

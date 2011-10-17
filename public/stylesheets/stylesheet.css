@@ -227,8 +227,8 @@ h1 {
 
 h2 {
   font-family: Helvetica_light;
-  font-size: 13px;
-  color: white;
+  font-size: 14px;
+  color: red;
   margin: 0px;
   margin-left: 30px;
   opacity: 1;
@@ -274,7 +274,7 @@ li {
   width: 1px;
 }
 
-#page1, #page2, #page3, #page4, #page5 {
+#page1, #page2, #page3, #page4, #page5, #page6 {
   position: absolute;
   padding: 10px;
   z-index: 1;
