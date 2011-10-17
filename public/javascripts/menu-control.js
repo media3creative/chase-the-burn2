@@ -99,7 +99,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery('#main-6-link').click(function(){
 		closeSubmenu();
-		changePage("#page6","bg_5.jpg");
+		changePage("#page6","bg_4.jpg");
 		//switchBg("bg6.jpg");
 	});
 		// pageComeOut();
