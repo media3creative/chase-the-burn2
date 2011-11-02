@@ -94,7 +94,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery('#main-5-link').click(function(){
 		closeSubmenu();
-		changePage("#page5","bg_5.jpg");
+		changePage("#page5","bg_6.jpg");
 		//switchBg("bg6.jpg");
 	});
 	jQuery('#main-6-link').click(function(){
@@ -271,7 +271,7 @@ function slideShow(){
 			switchBg("bg_1_4.jpg");
 		}
 		if(whichPic == 5){
-			switchBg("bg_1.jpg");
+			switchBg("bg_1_5.jpg");
 			whichPic = 0;
 		}
 
