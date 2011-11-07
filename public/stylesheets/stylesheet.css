@@ -321,16 +321,6 @@ li {
   height: auto;
 }
 
-.content-border {
-  border: 1px solid black;
-  width: 100%;
-  height: auto;
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 0px;
-}
-
 .page-title {
   color: white;
   font-family: Helvetica_light;
